@@ -38,5 +38,8 @@ Explain how to run the automated tests for this system
 * **Ryan L. Truby, PhD** 
 * **Cosimo Della Santina, PhD**
 
+First authored on February 6, 2020. 
+
+
 
 
