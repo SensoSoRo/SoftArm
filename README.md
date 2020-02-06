@@ -1,16 +1,11 @@
-# Data Set and Code Repository for the Article, 
-# "Distributed Proprioception of 3D Configuration in Soft Sensorized Robots via Deep Learning"
+# Data Set and Code Repository for the Article, "Distributed Proprioception of 3D Configuration in Soft Sensorized Robots via Deep Learning"
 
-We provide the data sets and relevant MATLAB scripts used in the journal article 
-"R L Truby, C Della Sandina, Daniela Rus. Distributed Proprioception of 3D Configuration in Soft Sensorized Robots via Deep Learning. IEEE Robotics and Automation Letters, 2020."
+In this SoftArm repoistory in SensoSoRo, we provide the data sets and relevant MATLAB scripts used in the journal article 
+"R L Truby, C Della Sandina, Daniela Rus. Distributed Proprioception of 3D Configuration in Soft Sensorized Robots via Deep Learning. IEEE Robotics and Automation Letters, 2020." Data sets include the raw training and validation sets used in this publication and the training scripts used as well. We intend to update this repository over time as necessary and/or upon reasonable request.
 
-## Getting Started
+## Getting Started and Navigation
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-### Prerequisites
-
-What things you need to install the software and how to install them
+We use MATLAB 2019 and MATLAB's Deep Learning Toolbox for all analysis, data processing, and training of neural networks. Data sets are currently provided as .mat files, and training scripts are provided as .m files.
 
 ```
 Give examples
@@ -37,22 +32,6 @@ End with an example of getting some data out of the system or using it for a lit
 ## Running the tests
 
 Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
 
 ## Authors
 
