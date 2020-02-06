@@ -2,7 +2,7 @@
 
 In this SoftArm repository of SensoSoRo, we provide the data sets and relevant MATLAB scripts used in the journal article 
 
-> "R L Truby, C Della Sandina, Daniela Rus. Distributed Proprioception of 3D Configuration in Soft Sensorized Robots via Deep Learning. IEEE Robotics and Automation Letters, 2020." 
+> "R L Truby, C Della Sandina, Daniela Rus. Distributed Proprioception of 3D Configuration in Soft Sensorized Robots via Deep Learning. IEEE Robotics and Automation Letters, 2020." [1]
 
 Data sets provided here include the raw training and validation sets used in this publication, along with the training scripts used as well. We intend to update this repository over time as necessary and/or upon reasonable request.
 
@@ -10,31 +10,34 @@ Data sets provided here include the raw training and validation sets used in thi
 
 We use MATLAB 2019 and MATLAB's Deep Learning Toolbox for all analysis, data processing, and training of neural networks. Data sets are currently provided as .mat files, and training scripts are provided as .m files.
 
+In the repo, find the following data sets:
+
 ```
-Give examples
+XTraining.mat
+YTraining.mat
+XValidation.mat
+YTraining.mat
 ```
+In these file names, "X" and "Y" refer to "inputs" and "outputs" to the model, respectively. Thus, XTraining.mat contains time series data from 12 sensor readings (all in units V), and YTraining.mat contains the time series data from 9 kinematic parameters, $q_i$. "Training" and "Validation" refer to which data sets are used for training and validation (and later testing, according to the practices introduced by Reference 2), respectively.
 
-### Installing
+## Data Sets
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+At present, we have provided the raw compiled data sets used for training and validation in our work. We are not yet providing discrete data sets from various actuation sequences, as we are still working with these for ongoing projects.  
 
 ```
 Give the example
 ```
+## Training script
 
-And repeat
+The current training script is a portion of code taken from a master script that we used in our work. To train the neural network, which is currently specified with the hyperparameters used in the "RMSE = 1.27 mm", LSTM-based network investigated in our paper, load the data sets into the workspace, and run the script 
 
 ```
-until finished
+TrainNeuralNetwork.m
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
+## Neural Network Training 
 
-## Running the tests
-
-Explain how to run the automated tests for this system
+Please refer to our calculation for RMSE, not that used by MATLAB's Deep Learning Toolkit. 
 
 ## Authors
 
