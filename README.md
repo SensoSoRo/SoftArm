@@ -4,7 +4,7 @@ In this SoftArm repository of SensoSoRo, we provide the data sets and relevant M
 
 > "R L Truby, C Della Sandina, Daniela Rus. Distributed Proprioception of 3D Configuration in Soft Sensorized Robots via Deep Learning. IEEE Robotics and Automation Letters, 2020." 
 
-Data sets include the raw training and validation sets used in this publication and the training scripts used as well. We intend to update this repository over time as necessary and/or upon reasonable request.
+Data sets provided here include the raw training and validation sets used in this publication, along with the training scripts used as well. We intend to update this repository over time as necessary and/or upon reasonable request.
 
 ## Getting Started and Navigation
 
