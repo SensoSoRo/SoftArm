@@ -1,6 +1,7 @@
-# Data Set and Code Repository for "Distributed Proprioception of 3D Configuration in Soft Sensorized Robots via Deep Learning"
+# Data Set and Code Repository for the Article, "Distributed Proprioception of 3D Configuration in Soft Sensorized Robots via Deep Learning"
 
-One Paragraph of project description goes here
+We provide the data sets and relevant MATLAB scripts used in the journal article 
+"R L Truby, C Della Sandina, Daniela Rus. Distributed Proprioception of 3D Configuration in Soft Sensorized Robots via Deep Learning. IEEE Robotics and Automation Letters, 2020."
 
 ## Getting Started
 
@@ -54,7 +55,7 @@ Give an example
 
 ## Authors
 
-* **Ryan L. Truby, PhD** - [PurpleBooth](https://github.com/rlt672)
+* **Ryan L. Truby, PhD** 
 * **Cosimo Della Santina, PhD**
 
 
