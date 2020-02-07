@@ -24,6 +24,8 @@ In these file names, "X" and "Y" refer to "inputs" and "outputs" to the model, r
 
 At present, we have provided the raw compiled data sets used for training and validation in our work. We are not yet providing discrete data sets from various actuation sequences, as we are still working with these for ongoing projects.  
 
+Required Output from Data Set Plots - SensoSoRo.png
+
 ```
 Give the example
 ```
