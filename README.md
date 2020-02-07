@@ -31,7 +31,7 @@ The file Train_NN.m will perform the following:
 
 To validate that the code is working properly, validate that the data set plots (Setp 2) match those as shown in 
 
-> Out from Data Set Plots - SensoSoRo.png
+> Required Output from Data Set Plots - SensoSoRo.png
 
 ### Note on Data Sets
 
