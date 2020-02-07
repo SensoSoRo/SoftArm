@@ -29,7 +29,9 @@ The file Train_NN.m will perform the following:
 3. Train a LSTM-based neural network as was conducted in our paper, and
 4. Plot the results of $q_i$ and $\tilde{q}_i$.
 
-Required Output from Data Set Plots - SensoSoRo.png
+To validate that the code is working properly, validate that the data set plots (Setp 2) match those as shown in 
+
+> Out from Data Set Plots - SensoSoRo.png
 
 ### Note on Data Sets
 
